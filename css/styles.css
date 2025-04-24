@@ -8,14 +8,47 @@ body {
 }
 ul,li,ol {
 list-style-type: none;
+margin: 0;
+padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 a {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
+.container {
+    max-width:1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 a, button {
     font-family: inherit;
 }
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .logo {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -27,10 +60,16 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+}
 .header-logo .logo-part {
     color:#2e2f42;
 }
 .nav-link {
+    padding: 24px 0;
+    display: block;
         font-weight: 500;
         font-size: 16px;
     
@@ -43,10 +82,18 @@ font-family: "Raleway", sans-serif;
 .nav-link:focus {
     color: #404bbf;
 }
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .contacts {
+    margin-left: auto;
     font-style: normal;
 }
 .contacts-link {
+    padding: 24px 0;
+    display: block;
     font-size: 16px;
 
     /* line-height: 24px; */
@@ -60,6 +107,9 @@ font-family: "Raleway", sans-serif;
 
 .title-text {
     background-color: #2e2f42;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 .title-text-styles {
     font-weight: 700;
@@ -69,6 +119,13 @@ font-family: "Raleway", sans-serif;
     text-align: center;
     color: #fff;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    }
+    .container-section {
+        margin: 0 auto;
     }
 .title-text-push {
         font-weight: 500;
@@ -78,6 +135,14 @@ font-family: "Raleway", sans-serif;
         background-color: #4d5ae5;
         cursor: pointer;
         line-height: 1.5;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px;
+        width: 169px;
+        height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        margin-bottom: 188px;
 }
 .title-text-push:focus,
 .title-text-push:hover {
