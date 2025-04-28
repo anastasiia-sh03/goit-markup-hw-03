@@ -165,7 +165,7 @@ font-family: "Raleway", sans-serif;
         margin-left: auto;
         margin-right: auto;
         border-radius: 4px;
-        width: 169px;
+        min-width: 169px;
         height: 56px;
         border: none;
         margin-bottom: 188px;
@@ -194,8 +194,7 @@ font-family: "Raleway", sans-serif;
     width: calc((100%-72px)/4);
 }
 .main-div {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .main-item {
